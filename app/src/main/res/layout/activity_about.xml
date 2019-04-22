@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+
+
+    <TextView
+        android:id="@+id/temp"
+        android:text="ABOUT US"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+
+    <TextView
+        android:id="@+id/temp1"
+        android:layout_below="@+id/temp"
+        android:layout_centerHorizontal="true"
+        android:text="This is a simple Sentiment Analysis Tool made for the final Project submission of Open Source Technologies (OST), a course taught at NSUT.This app is an application of Naive Bayes Classifier done on simple training examples. The Speech-to-Text conversion in the App is done using the Google Speech API's. The Naive Bayes Classifier is completely implemented by the developers on its own."
+        android:textSize="18dp"
+        android:padding="10dp"
+        android:textStyle="italic"
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/temp2"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/temp1"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:text="Developed By :"
+        android:padding="10dp"
+        android:textStyle="italic"
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/temp3"
+        android:layout_below="@+id/temp2"
+        android:layout_centerHorizontal="true"
+        android:text="Pawan Kumar (2016UCO1589)"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:textStyle="italic"
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/abouttext"
+        android:layout_below="@+id/temp3"
+        android:layout_centerHorizontal="true"
+        android:text="Sumit Saini (2016UCO1599)"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:textStyle="italic"
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/aboutbutton"
+        android:layout_below="@+id/abouttext"
+        android:layout_marginTop="30dp"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="Home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
